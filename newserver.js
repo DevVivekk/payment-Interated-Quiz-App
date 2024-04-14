@@ -45,7 +45,7 @@ app.prepare()
       resave: false,
       saveUninitialized: false,
       cookie: {
-        maxAge: 240 * 60 * 60 * 1000,
+        maxAge: 3600000, // 1 hour in milliseconds
         secure: false,
         httpOnly: false,
         sameSite: false
