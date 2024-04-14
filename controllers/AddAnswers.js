@@ -7,7 +7,7 @@ const addAnswers = async(req,res)=>{
         //this approach will override the previous ones;
 
         //this approach will add the new ones each without changing the prev ones
-        const ans = await usermodel.findOneAndUpdate({googleId:"111545277468921119586"},{$push:{history:answers}},{new:true});
+        const ans = await usermodel.findOneAndUpdate({googleId:req.user.googleId},{$push:{history:answers}},{new:true});
         console.log(ans);
         res.status(201).json("success!")
     }catch(e){
