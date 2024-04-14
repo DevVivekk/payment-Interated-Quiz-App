@@ -1,0 +1,26 @@
+header{
+    width: 100vw;
+    min-width: 50rem;
+    height: 10rem;
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 1.8rem;
+    position: sticky;
+    top: 0rem;
+    z-index: 1;
+    nav{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        div{
+            margin-left: 2rem;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+            width: 35rem;
+        }
+    }
+}

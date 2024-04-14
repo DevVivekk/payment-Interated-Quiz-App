@@ -1,0 +1,23 @@
+*{
+    padding: 0;
+    border: 0;
+    margin: 0;
+}
+:root{
+    --main-text-color:black;
+    --backround-color:white;
+}
+html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+}
+main{
+    width: 100vw;
+    min-width: 50rem;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5rem;
+    position: relative;
+}
