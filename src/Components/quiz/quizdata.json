@@ -1,42 +1,170 @@
 [
   {
-    "ques": "2+2",
-    "a":"9",
-    "b":"5",
-    "c":"8",
-    "d":"4",
-    "ans": "4"
+    "ques": "What does HTML stand for?",
+    "a": "Hypertext Makeup Language",
+    "b": "Hypertext Markup Language",
+    "c": "Hyperlink and Text Markup Language",
+    "d": "Hyper Text Markup Leveler",
+    "ans": "Hypertext Markup Language"
   },
   {
-    "ques": "2-2",
-    "a":"9",
-    "b":"0",
-    "c":"8",
-    "d":"4",
-    "ans": "0"
+    "ques": "Which language is used for styling web pages?",
+    "a": "JavaScript",
+    "b": "HTML",
+    "c": "CSS",
+    "d": "Python",
+    "ans": "CSS"
   },
   {
-    "ques": "3+3",
-    "a":"9",
-    "b":"5",
-    "c":"8",
-    "d":"6",
-    "ans": "6"
+    "ques": "What does CSS stand for?",
+    "a": "Cascading Style Sheets",
+    "b": "Creative Style Sheets",
+    "c": "Computer Style Sheets",
+    "d": "Colorful Style Sheets",
+    "ans": "Cascading Style Sheets"
   },
   {
-    "ques": "5+5",
-    "a":"9",
-    "b":"5",
-    "c":"10",
-    "d":"4",
-    "ans": "10"
+    "ques": "Which of the following is a JavaScript framework?",
+    "a": "React",
+    "b": "Sass",
+    "c": "LESS",
+    "d": "Bootstrap",
+    "ans": "React"
   },
   {
-    "ques": "8+3",
-    "a":"11",
-    "b":"5",
-    "c":"8",
-    "d":"4",
-    "ans": "11"
+    "ques": "What is the purpose of a CSS reset?",
+    "a": "To reset the browser",
+    "b": "To remove default browser styling",
+    "c": "To reset a CSS animation",
+    "d": "To reset the viewport",
+    "ans": "To remove default browser styling"
+  },
+  {
+    "ques": "What does AJAX stand for?",
+    "a": "Asynchronous JavaScript and XML",
+    "b": "All JavaScript and XML",
+    "c": "Active JavaScript and XML",
+    "d": "Automated JavaScript and XML",
+    "ans": "Asynchronous JavaScript and XML"
+  },
+  {
+    "ques": "Which version control system is widely used in web development?",
+    "a": "SVN",
+    "b": "Mercurial",
+    "c": "Git",
+    "d": "Perforce",
+    "ans": "Git"
+  },
+  {
+    "ques": "What does API stand for?",
+    "a": "Application Program Interface",
+    "b": "Advanced Programming Interface",
+    "c": "Automated Programming Interface",
+    "d": "Advanced Program Interaction",
+    "ans": "Application Program Interface"
+  },
+  {
+    "ques": "What is the purpose of a CDN in web development?",
+    "a": "To store cookies",
+    "b": "To optimize images",
+    "c": "To deliver web content",
+    "d": "To compress HTML",
+    "ans": "To deliver web content"
+  },
+  {
+    "ques": "Which of the following is not a web browser?",
+    "a": "Chrome",
+    "b": "Firefox",
+    "c": "Node.js",
+    "d": "Safari",
+    "ans": "Node.js"
+  },
+  {
+    "ques": "What is the purpose of the viewport meta tag in HTML?",
+    "a": "To control the browser viewport",
+    "b": "To set the initial scale of the page",
+    "c": "To define the viewport size",
+    "d": "To enable virtual reality mode",
+    "ans": "To control the browser viewport"
+  },
+  {
+    "ques": "What is the latest version of HTML?",
+    "a": "HTML4",
+    "b": "HTML5",
+    "c": "XHTML",
+    "d": "HTMLX",
+    "ans": "HTML5"
+  },
+  {
+    "ques": "What is the purpose of a CSS preprocessor?",
+    "a": "To write less CSS code",
+    "b": "To minify CSS code",
+    "c": "To generate CSS from another language",
+    "d": "To validate CSS code",
+    "ans": "To write less CSS code"
+  },
+  {
+    "ques": "Which of the following is a feature of a progressive web app (PWA)?",
+    "a": "Works only in offline mode",
+    "b": "Depends on native code",
+    "c": "Responsive design",
+    "d": "Requires installation from an app store",
+    "ans": "Responsive design"
+  },
+  {
+    "ques": "What is the role of a web server?",
+    "a": "To store website data",
+    "b": "To render web pages",
+    "c": "To host websites and serve web content",
+    "d": "To design website layouts",
+    "ans": "To host websites and serve web content"
+  },
+  {
+    "ques": "What is the purpose of the alt attribute in an HTML image tag?",
+    "a": "To define the image width",
+    "b": "To set the image source",
+    "c": "To provide alternative text for the image",
+    "d": "To apply CSS styles to the image",
+    "ans": "To provide alternative text for the image"
+  },
+  {
+    "ques": "What is the difference between localStorage and sessionStorage in HTML5?",
+    "a": "localStorage stores data temporarily, sessionStorage stores data permanently",
+    "b": "localStorage is accessible across different browser tabs, sessionStorage is not",
+    "c": "localStorage stores data with no expiration date, sessionStorage stores data for the duration of the page session",
+    "d": "localStorage is synchronous, sessionStorage is asynchronous",
+    "ans": "localStorage stores data with no expiration date, sessionStorage stores data for the duration of the page session"
+  },
+  {
+    "ques": "What is the purpose of a JavaScript framework like React or Angular?",
+    "a": "To manage server-side code",
+    "b": "To manipulate HTML and CSS",
+    "c": "To handle client-side interactions and state",
+    "d": "To secure web applications",
+    "ans": "To handle client-side interactions and state"
+  },
+  {
+    "ques": "What does SEO stand for in web development?",
+    "a": "Search Engine Organization",
+    "b": "Search Engine Optimization",
+    "c": "Secure Encryption Online",
+    "d": "Software Engineering Operations",
+    "ans": "Search Engine Optimization"
+  },
+  {
+    "ques": "What is the purpose of the <script> tag in HTML?",
+    "a": "To link external CSS files",
+    "b": "To define page structure",
+    "c": "To link external JavaScript files",
+    "d": "To create lists",
+    "ans": "To link external JavaScript files"
+  },
+  {
+    "ques": "Which of the following is NOT a front-end framework or library?",
+    "a": "Vue.js",
+    "b": "Express.js",
+    "c": "Bootstrap",
+    "d": "jQuery",
+    "ans": "Express.js"
   }
 ]

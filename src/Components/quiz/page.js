@@ -103,25 +103,25 @@ async function sendAnswer(){
       <div className='quiz-box'>
       <h3>{index+1}) {data[index].ques}</h3>
       <section className='input-quiz'>
-      <span>
+      <div>
       <label htmlFor={data[index].a}>{data[index].a}</label>
       <input  checked={ans===data[index].a} onChange={(e)=>setAns(e.target.value)} id={data[index].a} type="radio" value={data[index].a} name={data[index].ques}></input><br />
-      </span>
-      <span>
+      </div>
+      <div>
       <label htmlFor={data[index].b}>{data[index].b}</label>
       <input  checked={ans===data[index].b} onChange={(e)=>setAns(e.target.value)} id={data[index].b} type="radio" value={data[index].b} name={data[index].ques}></input><br />
-      </span>
-      <span>
+      </div>
+      <div>
       <label htmlFor={data[index].c}>{data[index].c}</label>
       <input  checked={ans===data[index].c} onChange={(e)=>setAns(e.target.value)} id={data[index].c} type="radio" value={data[index].c} name={data[index].ques}></input><br />
-      </span>
-      <span>
+      </div>
+      <div>
       <label htmlFor={data[index].d}>{data[index].d}</label>
       <input  checked={ans===data[index].d} onChange={(e)=>setAns(e.target.value)} id={data[index].d} type="radio" value={data[index].d} name={data[index].ques}></input><br />
-      </span>
+      </div>
       </section>
       <section className='quiz-button'>
-      <button onClick={submitans}>Submit ans</button><br />
+      <button onClick={submitans}>Submit ans</button>
       <button onClick={prevQuiz}>Previous question</button>
       </section>
       </div>
